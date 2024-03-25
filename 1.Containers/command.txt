@@ -1,0 +1,14 @@
+// câu lệnh để xem logs của container trên terminal
+docker container logs ${container_id_here}
+watch docker container logs ${container_id_here} // theo dõi logs
+
+// câu lệnh để thực thi chương trình bên trong container
+docker container exec -it ${container_id_here} ${chương trình muốn thực thi ở đây}
+// vd: docker container exec -it my-nginx bash  (-i giữ session để truy câp, -t để tạo ra terminal)
+
+docker container --help  //hiển thị tất cả lệnh của docker container
+// vd docker container stats my-nginx
+
+docker container prune //Xóa tất cả các container đã dừng
+
+docker container inspect ${container_id_here} //CÂU LỆNH QUAN TRỌNG DÙNG ĐỂ HIỂN THỊ THÔNG TIN CHI TIẾT CỦA 1 container

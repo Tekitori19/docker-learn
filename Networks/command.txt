@@ -1,0 +1,2 @@
+// Tạo network để các container giao tiếp trực tiếp với nhau thông qua container_name
+docker network create ${tên_network}

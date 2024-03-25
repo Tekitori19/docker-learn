@@ -1,0 +1,3 @@
+3 cách để có docker image
+Cách 1: Tải image trực tiếp từ docker hub
+Cách 2: dùng Dockerfile
